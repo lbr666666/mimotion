@@ -23,7 +23,8 @@ jobs:
           python-version: 3.7
       - name: 开始
         run: |
-          pip3 install requests
+          pip install --upgrade pip
+          pip install requests
           pmode='${{ secrets.PMODE }}'
           pkey='${{ secrets.PKEY }}'
           user='${{ secrets.USER }}'
