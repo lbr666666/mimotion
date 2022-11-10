@@ -2,7 +2,7 @@
 主程序脚本
 """
 # -*- coding: utf8 -*-
-# python >=3.8
+# python >=3.7
 
 import json
 import random
